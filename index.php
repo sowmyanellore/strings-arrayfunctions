@@ -127,26 +127,26 @@
      print_r($result);
  		 echo '<hr>';
     }
- 	   public function  splitarray($array2) {
+     public function  splitarray($array2) {
  	   echo '<h1>5.split an array</h1>';
  	   print_r(array_chunk($array2,2));
  		 echo '<hr>';
     }
  
- 	   public function  merge2array($array2,$array) {
+      public function  merge2array($array2,$array) {
  	   echo '<h1>6.Merge two arrays</h1>';
  	   print_r(array_merge($array2,$array));
  		 echo '<hr>';
     }
  
  
- 	   public function  slicearray($array2) {
+      public function  slicearray($array2) {
  	   echo '<h1>7.Slicing an array</h1>';
- 	   print_r(array_slice($array2));
+ 	   print_r(array_slice($array2,2));
  		 echo '<hr>';
     }
  
- 	   public function  sumarray($array) {
+      public function  sumarray($array) {
  	   echo '<h1>8.Sum of all values in array</h1>';
  	   echo array_sum($array);
  		 echo '<hr>';
